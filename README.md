@@ -1,4 +1,4 @@
-# python-boilerplate-project
+# python-project
 
 A python boilerplate project using poetry
 
@@ -11,31 +11,31 @@ A python boilerplate project using poetry
 - [Ruff](https://github.com/astral-sh/ruff)
 - [Dynaconf](https://www.dynaconf.com/)
 
-*Please pay attention on **pre-requisites** resources that you must install/configure.*
+_Please pay attention on **pre-requisites** resources that you must install/configure._
 
 ## How to install, run and test
 
 ### Environment variables
 
-*Use this section to explain each env variable available on your application* 
+_Use this section to explain each env variable available on your application_
 
-Variable | Description | Available Values | Default Value | Required
---- | --- | --- | --- | ---
-ENV | The application enviroment |  `development / test / qa / prod` | `development` | Yes
+| Variable | Description                | Available Values                 | Default Value | Required |
+| -------- | -------------------------- | -------------------------------- | ------------- | -------- |
+| ENV      | The application enviroment | `development / test / qa / prod` | `development` | Yes      |
 
-*Note: When you run the install command (using docker or locally), a .env file will be created automatically based on [env.template](env.template)*
+_Note: When you run the install command (using docker or locally), a .env file will be created automatically based on [env.template](env.template)_
 
-Command | Docker | Locally | Description
----- | ------- | ------- | -------
-install | `make docker/install` | `make local/install` | to install
-tests | `make docker/tests` | `make local/tests` | to run the tests with coverage
-lint | `make docker/lint` | `make local/lint` | to run static code analysis using ruff
-lint/fix | `make docker/lint/fix` | `make local/lint/fix` | to fix files using ruff
-run | `make docker/run` | `make local/run` | to run the project
+| Command  | Docker                 | Locally               | Description                            |
+| -------- | ---------------------- | --------------------- | -------------------------------------- |
+| install  | `make docker/install`  | `make local/install`  | to install                             |
+| tests    | `make docker/tests`    | `make local/tests`    | to run the tests with coverage         |
+| lint     | `make docker/lint`     | `make local/lint`     | to run static code analysis using ruff |
+| lint/fix | `make docker/lint/fix` | `make local/lint/fix` | to fix files using ruff                |
+| run      | `make docker/run`      | `make local/run`      | to run the project                     |
 
 **Helpful commands**
 
-*Please, check all available commands in the [Makefile](Makefile) for more information*.
+_Please, check all available commands in the [Makefile](Makefile) for more information_.
 
 ## Logging
 

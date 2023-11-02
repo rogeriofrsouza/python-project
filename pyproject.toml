@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "python-boilerplate-project"
+name = "python-project"
 version = "0.1.0"
-description = "A python boilerplate project using poetry"
+description = "A python project using poetry"
 authors = [""]
 license = "MIT"
 
@@ -30,6 +30,7 @@ directory = "htmlcov"
 
 [tool.ruff]
 line-length = 120
+indent-width = 2
 select = ["E", "F", "W", "I", "N"]
 target-version = "py311"
 

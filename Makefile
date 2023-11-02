@@ -1,4 +1,4 @@
-APP_NAME="python-boilerplate-project"
+APP_NAME="python-project"
 
 ################################
 # COMMANDS TO RUN LOCALLY
