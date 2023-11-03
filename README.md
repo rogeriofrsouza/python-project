@@ -1,6 +1,6 @@
 # python-project
 
-A python boilerplate project using poetry
+A python project to recover data from PDF
 
 ## Technology and Resources
 
@@ -36,7 +36,3 @@ _Note: When you run the install command (using docker or locally), a .env file w
 **Helpful commands**
 
 _Please, check all available commands in the [Makefile](Makefile) for more information_.
-
-## Logging
-
-This project uses a simple way to configure the log with [logging.conf](logging.conf) to show the logs on the container output console.
