@@ -1,10 +1,16 @@
+import os
+
 import pdftotext
 from entities.cliente import Cliente
 from entities.cobertura import Cobertura
 from entities.resultado import Resultado
 
 pdf_path = "assets/João Rodrigues_Vida Viva_2023_10_16.pdf"
+output_path = "assets/out/"
 pdf_converted_path = pdf_path.replace("assets/", "assets/out/").replace(".pdf", ".txt")
+
+if not os.path.exists(output_path):
+  os.mkdir(output_path)
 
 # Abre o arquivo PDF
 with open(pdf_path, "rb") as f:
